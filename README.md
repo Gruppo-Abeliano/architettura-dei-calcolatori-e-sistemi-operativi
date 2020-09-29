@@ -4,7 +4,7 @@ Questa repository racchiude appunti ed esercizi del corso di architettura dei ca
 ## Docenti e Materiale
 Teoria: Prof.ssa Cristina Silvano ([Contatta Cristina Silvano](mailto:cristina.silvano@polimi.it))\
 Esercitazioni Modulo 1: Ing. Fabrizio Indirli ([Contatta Fabrizio Indirli](mailto:fabrizio.indirli@polimi.it))\
-Esercitazioni Modulo 2: Ing. Davide Gadioli ([Contatta Davide Gadioli](mailto:davide.gadioli@polimi.it))\ 
+Esercitazioni Modulo 2: Ing. Davide Gadioli ([Contatta Davide Gadioli](mailto:davide.gadioli@polimi.it))
 
 Materiale: TBD - Coming soon
 
