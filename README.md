@@ -9,4 +9,5 @@ Esercitazioni Modulo 2: Ing. Davide Gadioli ([Contatta Davide Gadioli](mailto:da
 Materiale: TBD - Coming soon
 
 ## Strumenti utili
-Durante il corso viene analizzata l'architettura [MIPS](https://en.wikipedia.org/wiki/MIPS_architecture "MIPS Architecture") (ISA 32bit), appartenente alla famiglia delle architetture RISC.\ Utilizzeremo il software MARS ([Scarica MARS](https://courses.missouristate.edu/KenVollmar/MARS/MARS_4_5_Aug2014/Mars4_5.jar "Scarica il simulatore!") - [Java](https://www.java.com/it/) required) per emulare l'esecuzione del linguaggio assembler.
+Durante il corso viene analizzata l'architettura [MIPS](https://en.wikipedia.org/wiki/MIPS_architecture "MIPS Architecture") (ISA 32bit), appartenente alla famiglia delle architetture RISC.
+Utilizzeremo il software MARS ([Scarica MARS](https://courses.missouristate.edu/KenVollmar/MARS/MARS_4_5_Aug2014/Mars4_5.jar "Scarica il simulatore!") - [Java](https://www.java.com/it/) required) per emulare l'esecuzione del linguaggio assembler.
