@@ -26,8 +26,8 @@ I:      .space 4
 # temporanei, per poi scriverli con una seconda istruzione in memoria.                                          #
 #################################################################################################################
 
-.globl MAIN
 .text
+.globl MAIN
 MAIN:   lw $t0, 0000(VETT)
         sw $t0, MAX
 
