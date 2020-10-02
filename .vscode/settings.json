@@ -1,0 +1,6 @@
+{
+        "editor.tabSize": 8,
+        "[MIPS Assembly]": {
+            "editor.tabSize": 2
+        }
+}
