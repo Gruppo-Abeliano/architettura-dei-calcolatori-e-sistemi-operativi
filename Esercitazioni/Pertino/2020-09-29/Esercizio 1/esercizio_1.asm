@@ -1,4 +1,4 @@
-#########################################�#########  TAGS  ######################################################
+###################################################  TAGS  ######################################################
 # Descrizione: traduzione in linguaggio assembler MIPS di programma C che esegue la somma tra due               #
 #              numeri interi.                                                                                   #
 #                                                                                                               #
@@ -35,8 +35,8 @@ C:  .word 3
 # Definisco l'inizio del programma MAIN attraverso l'etichetta apposita. Siccome devo elaborare 2 variabili     #
 # presenti in memoria, le prelevo e le inserisco nei registri temporanei $t0 e $t1.                             #
 #                                                                                                               #
-# RICORDA: l'archittetura MIPS si basa su meccanismo load/store, pertando pu� effettuare operazioni soltanto su #
-#          registri del processore e non direttamente su elementi presenti in memoria!                          #
+# RICORDA: l'archittetura MIPS si basa su meccanismo load/store, pertando puo' effettuare operazioni soltanto   #
+#          su registri del processore e non direttamente su elementi presenti in memoria!                       #
 #################################################################################################################
 
 MAIN: lw   $t0, A
@@ -44,13 +44,13 @@ MAIN: lw   $t0, A
 
 #################################################################################################################
 # Per ottimizzare il codice non carico subito anche la terz variabile. E' infatti preferibile fare il primo     #
-# controllo dell'istruzione if-else, in quanto se essa � falsa, essendo presente l'operatore logico 'and',      #
-# tutta l'espressione � automaticamente falsa e pertanto non avrebbe senso controllare anche a==C               #
+# controllo dell'istruzione if-else, in quanto se essa e' falsa, essendo presente l'operatore logico 'and',     #
+# tutta l'espressione e' automaticamente falsa e pertanto non avrebbe senso controllare anche a==C              #
 # In caso invece fosse verificata la prima condizione, procedo al controllo anche della seconda.                #
 #################################################################################################################
 
       bne  $t0, $t1, ELSE
-      lw   $t1, C                    # B al momento non mi serve pi�, pertanto lo sovrascrivo.
+      lw   $t1, C                    # B al momento non mi serve piu', pertanto lo sovrascrivo.
       bne  $t0, $t1, ELSE
 
 #################################################################################################################
@@ -72,7 +72,7 @@ ELSE: lw   $t0, B
       sw   $t0, B
 
 #################################################################################################################
-# In generale, scorrelato dal controllo effettuato nell'if, alla variabile C alla fine del programma �          #
+# In generale, scorrelato dal controllo effettuato nell'if, alla variabile C alla fine del programma e'         #
 # assegnato il valore 12, pertanto lo aggiorno e sovrascrivo il vecchio salvato in memoria.                     #
 #################################################################################################################
 
